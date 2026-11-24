@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        body{
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form id="myForm" onsubmit="handleSubmit(event)">
+
+        <label>Name:</label>
+        <input type="text" id="name">
+        <br><br>
+
+        <label>Email:</label>
+        <input type="text" id="email">
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password">
+        <br><br>
+
+        <label>Confirm Password:</label>
+        <input type="password" id="confirmPassword">
+        <br><br>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <p id="output"></p>
+
+    <script src="formval.js"></script>
+
+</body>
+</html>
